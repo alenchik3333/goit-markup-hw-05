@@ -182,13 +182,12 @@ a {
   color: var(--primary-text-color);
   justify-content: center;
   align-items: center;
-  transition: color var(--transition-fast), fill var(--transition-fast);
+  transition: color var(--transition-fast);
 }
 
 .contact .link:hover,
 .contact .link:focus {
   color: var(--additional-text-color);
-  fill: currentColor;
 }
 
 .icon-email,
@@ -600,6 +599,7 @@ h3 {
 
 .portfolio-item {
   transition: box-shadow var(--transition-fast);
+  cursor: pointer;
 }
 
 .portfolio-item:hover,
@@ -670,7 +670,7 @@ h3 {
   background-color: var(--accent-text-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  transition: transform var(--transition-fast) opacity, var(--transition-fast); visibility: var(--transition-fast);
+  transition: transform var(--transition-fast), var(--transition-fast); visibility: var(--transition-fast);
   z-index: 100;
 }
 
@@ -684,6 +684,10 @@ h3 {
   border-radius: 50%;
   background-color: transparent;
   border-color: 1pvar(--accent-text-color);
+}
+
+#close {
+  fill: black;
 }
 
 
