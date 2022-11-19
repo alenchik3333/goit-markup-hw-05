@@ -469,13 +469,13 @@ h3 {
     color: var(--additional-text-color);
 }
 
-.footer .link {
+.footer .link-contact {
   color: var(--footer-text-color);
   transition: color var(--transition-fast)
 }
 
-.footer .link:hover,
-.footer .link:focus {
+.footer .link-contact:hover,
+.footer .link-contact:focus {
   color: var(--additional-text-color);
 }
 
@@ -684,10 +684,9 @@ h3 {
   border-radius: 50%;
   background-color: transparent;
   border-color: 1pvar(--accent-text-color);
+  display: flex;
+  align-items: center;
 }
 
-#close {
-  fill: black;
-}
 
 
