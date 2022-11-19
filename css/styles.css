@@ -686,6 +686,7 @@ h3 {
   border-color: 1pvar(--accent-text-color);
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 
